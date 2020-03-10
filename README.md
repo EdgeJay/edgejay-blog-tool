@@ -1,3 +1,7 @@
+# Blog publishing tool for https://edgejay.github.io
+
+This tool is made possible by Gatsby and wonderful blog starter by Greg Lobinski [dev.greglobinski.com/gatsby-starter-hero-blog](https://dev.greglobinski.com/gatsby-starter-hero-blog/).
+
 # HeroBlog
 
 A [GatsbyJS](https://www.gatsbyjs.org/) blog starter. <br /><br />
