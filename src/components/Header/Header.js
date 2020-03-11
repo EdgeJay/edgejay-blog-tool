@@ -95,7 +95,7 @@ class Header extends React.Component {
 
             &.homepage {
               position: absolute;
-              background-color: transparent;
+              background-color: rgba(0, 0, 0, 0.3);
               height: ${theme.header.height.homepage};
             }
           }
