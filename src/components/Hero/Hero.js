@@ -1,7 +1,7 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
-import { FaArrowDown } from "react-icons/fa/";
+import { FaArrowDown } from 'react-icons/fa/';
 
 const Hero = props => {
   const { scrollToContent, backgrounds, theme } = props;
@@ -10,7 +10,7 @@ const Hero = props => {
     <React.Fragment>
       <section className="hero">
         <h1>
-          This is a demo site of&nbsp;the <strong>heroBlog</strong> GatsbyJS starter
+          Thoughts of a <strong>coder</strong>
         </h1>
         <button onClick={scrollToContent} aria-label="scroll">
           <FaArrowDown />
@@ -40,20 +40,20 @@ const Hero = props => {
           margin: ${theme.space.stack.l};
           color: ${theme.hero.h1.color};
           line-height: ${theme.hero.h1.lineHeight};
-          text-remove-gap: both 0 "Open Sans";
+          text-remove-gap: both 0 'Open Sans';
 
           :global(strong) {
             position: relative;
 
             &::after,
             &::before {
-              content: "›";
+              content: '›';
               color: ${theme.text.color.attention};
               margin: 0 ${theme.space.xs} 0 0;
               text-shadow: 0 0 ${theme.space.s} ${theme.color.neutral.gray.k};
             }
             &::after {
-              content: "‹";
+              content: '‹';
               margin: 0 0 0 ${theme.space.xs};
             }
           }
@@ -135,7 +135,7 @@ const Hero = props => {
 Hero.propTypes = {
   scrollToContent: PropTypes.func.isRequired,
   backgrounds: PropTypes.object.isRequired,
-  theme: PropTypes.object.isRequired
+  theme: PropTypes.object.isRequired,
 };
 
 export default Hero;
